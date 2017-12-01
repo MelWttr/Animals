@@ -34,32 +34,24 @@ class Animal:
 
 
 class Cow(Animal):
-    def __init__(self, name, color, is_alive, speed):
-        super().__init__(name, color, is_alive, speed)
 
     def  moo(self):
         print("mooo")
 
 
 class Goat(Animal):
-    def __init__(self, name, color, is_alive, speed):
-        super().__init__(name, color, is_alive, speed)
 
     def bleat(self):
         print("meee")
 
 
 class Sheep(Animal):
-    def __init__(self, name, color, is_alive, speed):
-        super().__init__(name, color, is_alive, speed)
 
     def bleat(self):
         print("beee")
 
 
 class Sheep(Animal):
-    def __init__(self, name, color, is_alive, speed):
-        super().__init__(name, color, is_alive, speed)
 
     def grunt(self):
         print("naf naf uiii")
@@ -103,16 +95,12 @@ class Duck(Bird):
 
 
 class Han(Bird):
-    def __init__(self, flying_speed, name, color, is_alive, speed):
-        super().__init__(flying_speed, name, color, is_alive, speed)
 
     def crow(self):
         print("crow")
 
 
 class Goose(Duck):
-    def __init__(self, swimming_speed, flying_speed, name, color, is_alive, speed):
-        super().__init__(swimming_speed, flying_speed, name, color, is_alive, speed)
 
     def hiss(self):
         print("shhhhh")
@@ -131,3 +119,4 @@ guns.bleat()
 manya.die()
 scroodge.quack()
 ryaba.move("running")
+print(scroodge.name)
